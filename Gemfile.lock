@@ -2,7 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    awesome_print (1.9.2)
     diff-lcs (1.4.4)
+    matrix (0.4.2)
     parallel (1.21.0)
     parser (3.0.3.2)
       ast (~> 2.4.1)
@@ -41,6 +43,8 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  awesome_print (~> 1.9)
+  matrix (~> 0.4.2)
   rspec (~> 3.10)
   rubocop (~> 1.23)
 

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require_relative '../lib/day1'
+require_relative '../lib/day2'
+require_relative '../lib/day3'
+require_relative '../lib/day4'
+require 'irb'
+
+IRB.start
