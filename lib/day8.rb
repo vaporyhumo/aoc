@@ -1,3 +1,4 @@
+# typed: strict
 # frozen_string_literal: true
 
 module Day8
@@ -14,5 +15,6 @@ module Day8
 
     def problem_b(input)
     end
+
   end
 end
